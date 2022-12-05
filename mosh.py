@@ -1,4 +1,4 @@
-#!~/anaconda3/python
+#!/C/Users/'Azubike Chiefo'/anaconda3/python.exe
 print("Oladapo Okikiola")
 print('o----')
 print(' ||||')
