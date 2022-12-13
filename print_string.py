@@ -9,4 +9,4 @@ str = "Holberton School"
 print(str)  # print the string
 print(str * 3)  # print tge string three times
 print(3 * str)  # print the string three times
-print(0:9)  # print the first nine character
+print(str[0:9])  # print the first nine character
