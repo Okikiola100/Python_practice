@@ -20,5 +20,7 @@ elif operator == "//":
     print("{} // {} = {rem}".format(num1, num2, rem = num1 // num2))
 elif operator == "%":
     print("{} % {} = {mod}".format(num1, num2, mod = num1 % num2))
+else:
+    print("Unknwown operator:\nPlease enter either +, -, *, /, //, or %")
 print("\n\n\ndone")
 print("Author: Oladapo Okikiola")
