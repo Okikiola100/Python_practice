@@ -11,4 +11,4 @@ Kilometre = miles * 1.60934
 """
 miles = float(input("Enter the number of miles: "))  # ask the user to enter the number of mile and assign it to the variable miles
 kilometre = miles * 1.60934  # maths operator that converts miles to kilometres
-print("{} miles equals to {:.2f}({}) kilometres".format(miles, kilometre, kilometre))  # printing out the output
+print("{} miles equals to {} kilometres\n\t\t = {:.2f} kilometres (2d.p)".format(miles, kilometre, kilometre))  # printing out the output
