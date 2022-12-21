@@ -1,5 +1,12 @@
 #!/bin/python
 # Author: Oladapo Okikiola
+play = input("Do you wanna guess(True or False): ")
+while play == "True":
+    print("get ready to play")
+    break
+else:
+    print("goodbye!")
+    exit()
 secret_num = 7
 guess_count = 0
 guess_limit = 3
