@@ -3,10 +3,10 @@ print("""
 Author: Oladapo Okikiola
 Description: Code that sketch an image and save to another image file
 """)
-pip install opencv-python
+# first import the opencv-python module(using: pip install opencv-python) in order to be able to use this function
 import cv2
 
-image1 = cv2.imread('pic_1.jpeg')
+image1 = cv2.imread('pic_1.jpg')
 window_name = 'Actual image'
 
 cv2.imshow(window_name, image1)
@@ -18,9 +18,9 @@ blur = cv2.GaussianBlur(invert, (21, 21), 0)
 invertedblur = cv2.bitwise_not(blur)
 sketch = cv2.divide(grey_img, invertedblur, scale = 256.0)
 
-cv2.imwrite("pic_sketch.jpeg", sketch)
+cv2.imwrite("pic_sketch.jpg", sketch)
 
-image = cv2.imread("pic_sketch.jpeg")
+image = cv2.imread("pic_sketch.jpg")
 
 window_name = 'sketch image'
 
