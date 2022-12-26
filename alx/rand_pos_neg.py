@@ -1,4 +1,4 @@
-#!/~/AppData/Local/Python/Python38-32/Python
+#!~/AppData/Local/Python/Python38-32/Python
 print("""
 Author: Oladapo Okikiola
 
