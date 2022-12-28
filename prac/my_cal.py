@@ -51,3 +51,29 @@ def div(a, b):
     Division of a by b, div(a, b)
     """
     return (a / b)
+def quot(a, b):
+
+    """
+    My quotient division
+
+    Args:
+    a: integer
+    b: integer
+
+    Return:
+    The quotent division of a and b, quot(a, b)
+    """
+    return (a // b)
+def mod(a, b):
+
+    """
+    My modulus function
+
+    Args:
+    a: integrr
+    b: integer
+
+    Return:
+    The modulus of a and b
+    """
+    return (a % b)
